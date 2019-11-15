@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/big-data.iml" filepath="$PROJECT_DIR$/.idea/big-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadooptrain/hadoop-train.iml" filepath="$PROJECT_DIR$/hadooptrain/hadoop-train.iml" />
     </modules>
   </component>
 </project>
