@@ -36,7 +36,7 @@ public class HdfsApp {
          * 参数2 返回已经配置的文件系统的实现
          * 参数3 客户端的身份，用户名
          */
-        fileSystem=    FileSystem.get(new URI(HDFS_PATH),configuration,"root");
+        fileSystem=    FileSystem.get(new URI(HDFS_PATH),configuration,"hadoop");
     }
     /**
      * 测试创建目录
@@ -44,7 +44,7 @@ public class HdfsApp {
      */
     @Test
     public void mkdir() throws IOException {
-        fileSystem.mkdirs(new Path("/hdfs-api/test"));
+        fileSystem.mkdirs(new Path("/hdfs-api/test4"));
     }
 
     /**
@@ -56,6 +56,7 @@ public class HdfsApp {
         FSDataInputStream in= fileSystem.open(new Path("/t.txt"));
         IOUtils.copyBytes(in,System.out,1024,true);
         System.out.println("end");
+        in.close();
     }
 
     /**
