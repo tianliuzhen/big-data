@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/big-data.iml" filepath="$PROJECT_DIR$/.idea/big-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KafkaSimpleExample/examples.iml" filepath="$PROJECT_DIR$/KafkaSimpleExample/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadooptrain/hadoop-train.iml" filepath="$PROJECT_DIR$/hadooptrain/hadoop-train.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
     </modules>
   </component>
 </project>
