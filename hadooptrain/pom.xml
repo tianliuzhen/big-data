@@ -8,7 +8,7 @@
   <artifactId>hadoop-train</artifactId>
   <version>1.0</version>
 
-  <name>hadoop-train</name>
+    <name>hadoop-train</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -56,6 +56,19 @@
 
   </dependencies>
 
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 <!--  <build>
     <sourceDirectory>src/main/scala</sourceDirectory>
     <testSourceDirectory>src/test/scala</testSourceDirectory>
