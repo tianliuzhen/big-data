@@ -11,7 +11,7 @@ object SparkDataSet {
     val ds2 :Dataset[Int] = Seq(1,2,3).toDS()
     ds2.map(x => x+1).collect().foreach(println)
     // dataFrame 转 dataSet
-    val peopleDf: DataFrame= spark.read.json("wc/srcdata/people.txt")
+    val peopleDf: DataFrame= spark.read.json("wc/srcdata/people.json")
     val peopleDf2: Dataset[Person]  =peopleDf.as[Person]
     peopleDf2.show()
     peopleDf2.map(x => x.name).show()

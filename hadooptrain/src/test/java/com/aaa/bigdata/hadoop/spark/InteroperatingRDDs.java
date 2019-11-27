@@ -64,10 +64,11 @@ public class InteroperatingRDDs {
         peopleDataFrame.createOrReplaceTempView("people");
 
 // SQL可以在使用DataFrames创建的临时视图上运行
-        Dataset<Row> results = spark.sql("SELECT name FROM people");
+        Dataset<Row> results = spark.sql("SELECT * FROM people");
 
 //SQL查询的结果是数据帧，支持所有正常的RDD操作
 //结果中行的列可以通过字段索引或字段名访问
+        results.show();
         Dataset<String> namesDS = results.map(
                 (MapFunction<Row, String>) row -> "Name: " + row.getString(0),
                 Encoders.STRING());

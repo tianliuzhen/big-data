@@ -1,3 +1,0 @@
-tom ,56
-mike ,34
-allen ,3
