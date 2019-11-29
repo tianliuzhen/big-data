@@ -2,27 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd52e74-ceb4-40f4-b9a8-65d07fb884bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceAppV2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadooptrain/src/resources/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/DataSourceAppV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/JDBCApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/JDBCClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wc/srcdata/people.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wc/srcdata/people2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wc/srcdata/users.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_29_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_29_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_29_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_29_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_29_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_29_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_reactive_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/spark/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/JobSubmitRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/SparkResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/RetMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/SparkJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/SparkJobLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountAppV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/shell.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkDataSources/DataSourceAppV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkDataSources/JDBCApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkDataSources/JDBCClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountAppV2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hadooptrain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadooptrain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataSet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataSet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/InteroperatingRDDs.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/InteroperatingRDDs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountApp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wc/srcdata/people.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wc/srcdata/people.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wc/srcdata/people2.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hadooptrain/target/" />
     <ignored path="$PROJECT_DIR$/kafka/target/" />
     <ignored path="$PROJECT_DIR$/KafkaSimpleExample/target/" />
+    <ignored path="$PROJECT_DIR$/boot_spark/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,115 +138,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/SparkDataFrame.java">
+        <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/shell.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/JDBCClientApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/SparkDataSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceAppV2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wc/srcdata/people2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/DataSourceAppV2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/Dataset.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/part-00000-e5f40f71-fa51-469e-9839-f26b415e9295.json">
+        <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/spark/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="411">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceApp.scala">
+        <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/SparkJobLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="129" column="3" selection-start-line="129" selection-start-column="3" selection-end-line="130" selection-end-column="119" />
+            <state relative-caret-position="276">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/SparkJobController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/JobSubmitRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountAppV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1219">
+              <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/SparkResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -164,6 +256,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Scala Object" />
         <option value="Class" />
       </list>
     </option>
@@ -176,6 +269,9 @@
       <find>20</find>
       <find>peopleRDD</find>
       <find>pom.xml</find>
+      <find>overw</find>
+      <find>RestSubmissionClient</find>
+      <find>environmentVariables</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -191,21 +287,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/AppTest.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/hdfs/HfdsAPP.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/hdfs/HfdsFileSystem.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/hdfs/HfdsApp.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/hdfs/test.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/hdfs/App.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/hdfs/HdfsApp.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/mapReduce/WCReducer.java" />
-        <option value="$PROJECT_DIR$/wc/srcdata/text.txt" />
         <option value="$PROJECT_DIR$/hadooptrain/src/resources/log4j.proper" />
         <option value="$PROJECT_DIR$/hadooptrain/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" />
         <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/mapReduce/WCMapper.java" />
         <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/bigdata/App.java" />
         <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/mapReduce/WCRunner.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountApp.scala" />
         <option value="$PROJECT_DIR$/hadooptrain/src/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/wc.scala" />
         <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataSet.java" />
@@ -217,16 +303,41 @@
         <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/InteroperatingRDDs.java" />
         <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/SparkDataSet.java" />
         <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/JDBCApi.java" />
-        <option value="$PROJECT_DIR$/hadooptrain/pom.xml" />
         <option value="$PROJECT_DIR$/hadooptrain/src/resources/application.conf" />
         <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/JDBCClientApp.java" />
-        <option value="$PROJECT_DIR$/wc/srcdata/people.txt" />
-        <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataSet.scala" />
         <option value="$PROJECT_DIR$/wc/srcdata/people.json" />
         <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceApp.scala" />
         <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceAppV2.scala" />
         <option value="$PROJECT_DIR$/wc/srcdata/people2.json" />
         <option value="$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/DataSourceAppV2.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataSet.scala" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountAppV2.scala" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountApp.scala" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountAppV2.scala" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/test.java" />
+        <option value="$PROJECT_DIR$/wc/srcdata/people.txt" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/tets.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/test.txt" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountApp.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountAppV2.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkDataSources/DataSourceAppV2.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/shell.txt" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkDataSources/JDBCApi.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/web/RetMsg.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/web/SparkJobLog.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/web/SparkJobController.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkEonfig/JobSubmitRequest.java" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/RetMsg.java" />
+        <option value="$PROJECT_DIR$/hadooptrain/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/test.java" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/SparkJobController.java" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/Action.java" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/JobSubmitRequest.java" />
+        <option value="$PROJECT_DIR$/boot_spark/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/SparkResponse.java" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/test.java" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkV2.java" />
+        <option value="$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/spark/test.java" />
       </list>
     </option>
   </component>
@@ -245,15 +356,20 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="boot_spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1635" />
+    <option name="y" value="104" />
+    <option name="width" value="1932" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -272,6 +388,82 @@
             <path>
               <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
               <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
               <item name="hadooptrain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,6 +478,44 @@
               <item name="hadooptrain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="hadooptrain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="hadooptrain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="hadooptrain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data" type="462c0819:PsiDirectoryNode" />
+              <item name="hadooptrain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
@@ -388,11 +618,6 @@
             <path>
               <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
               <item name="big-data" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-data" type="462c0819:PsiDirectoryNode" />
               <item name="wc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -416,10 +641,10 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574838326164" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575021968992" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="E:/浏览器下载资源/火狐/coding385-master/coding385" />
+    <property name="last_opened_file_path" value="E:/浏览器下载资源/Google/spark-jobs-rest-client-master/spark-jobs-rest-client-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -433,16 +658,31 @@
       <recent name="D:\myweb\big-data" />
       <recent name="D:\myweb\big-data\hadooptrain\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aaa.spark" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myweb\big-data\wc\srcdata" />
+      <recent name="D:\myweb\big-data\boot_spark\src\main\java\com\aaa\boot_spark" />
+      <recent name="D:\myweb\big-data\hadooptrain\src\main\java\com\aaa" />
       <recent name="D:\myweb\big-data\hadooptrain\src\main\scala" />
-      <recent name="D:\myweb\big-data\hadooptrain\src\resources" />
-      <recent name="D:\myweb\big-data\hadooptrain\data" />
+      <recent name="D:\myweb\big-data\hadooptrain\src\main\java\com\aaa\spark" />
+      <recent name="D:\myweb\big-data\wc\srcdata" />
     </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="Found 3 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 3 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="boot_spark" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -458,44 +698,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataSourceAppV2">
-    <configuration name="DataSourceApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="DataSourceApp" />
-      <module name="hadoop-train" />
-      <option name="VM_PARAMETERS" value="-Dspark.testing.memory" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataSourceAppV2-java" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="DataSourceAppV2" />
-      <module name="hadoop-train" />
-      <option name="VM_PARAMETERS" value="-Dspark.testing.memory=1073741824" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataSourceAppV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aaa.bigdata.hadoop.sparkDataSources.DataSourceAppV2" />
+  <component name="RunManager" selected="Application.test">
+    <configuration name="JDBCApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aaa.sparkDataSources.JDBCApi" />
       <module name="hadoop-train" />
       <option name="VM_PARAMETERS" value="-Dspark.testing.memory=1073741824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aaa.bigdata.hadoop.sparkDataSources.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aaa.bigdata.hadoop.sparkDataSources.JDBCClientApp" />
-      <module name="hadoop-train" />
-      <option name="VM_PARAMETERS" value="-Dspark.testing.memory=1073741824" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aaa.bigdata.hadoop.sparkDataSources.*" />
+          <option name="PATTERN" value="com.aaa.sparkDataSources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -525,6 +735,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkWordCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aaa.spark.SparkWordCountApp" />
+      <module name="hadoop-train" />
+      <option name="VM_PARAMETERS" value="-Dspark.testing.memory=1073741824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkWordCountAppV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aaa.spark.SparkWordCountAppV2" />
+      <module name="hadoop-train" />
+      <option name="VM_PARAMETERS" value="-Dspark.testing.memory=1073741824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aaa.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aaa.boot_spark.sparkConfig.test" />
+      <module name="boot_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aaa.boot_spark.sparkConfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootSparkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot_spark" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.boot_spark.BootSparkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExamplesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="examples" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.kafka.ExamplesApplication" />
@@ -541,20 +799,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.SparkDataSet" />
-      <item itemvalue="Application.JDBCClientApp" />
-      <item itemvalue="Application.DataSourceApp" />
-      <item itemvalue="Application.DataSourceAppV2-java" />
-      <item itemvalue="Application.DataSourceAppV2" />
+      <item itemvalue="Application.SparkWordCountApp" />
+      <item itemvalue="Application.SparkWordCountAppV2" />
+      <item itemvalue="Application.JDBCApi" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Spring Boot.ExamplesApplication" />
       <item itemvalue="Spring Boot.KafkaApplication" />
+      <item itemvalue="Spring Boot.BootSparkApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataSourceAppV2" />
-        <item itemvalue="Application.DataSourceAppV2-java" />
-        <item itemvalue="Application.DataSourceApp" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.JDBCApi" />
+        <item itemvalue="Application.SparkWordCountAppV2" />
+        <item itemvalue="Application.SparkWordCountApp" />
         <item itemvalue="Application.SparkDataSet" />
-        <item itemvalue="Application.JDBCClientApp" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +842,12 @@
       <workItem from="1574732540748" duration="16000" />
       <workItem from="1574739139566" duration="3830000" />
       <workItem from="1574746402398" duration="26139000" />
-      <workItem from="1574822487168" duration="9264000" />
+      <workItem from="1574822487168" duration="10565000" />
+      <workItem from="1574842690991" duration="1724000" />
+      <workItem from="1574907002690" duration="286000" />
+      <workItem from="1574919783418" duration="25179000" />
+      <workItem from="1575012868046" duration="7811000" />
+      <workItem from="1575021745264" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="java 操作 hdfs">
       <created>1573812321550</created>
@@ -620,7 +884,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574767785623</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java 和 scala 处理数据源">
+      <created>1574839187643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574839187643</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -656,13 +927,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86148000" />
+    <option name="totallyTimeSpent" value="123261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -672,8 +943,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34164858" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23861171" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23535791" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31236443" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -689,13 +960,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.26066098" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.17643923" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="RestServices" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="RestServices" order="9" weight="0.2217484" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
@@ -708,7 +979,8 @@
     <MESSAGE value="本地采用跑scala跑spark dataframe和dataSet" />
     <MESSAGE value="本地采用跑scala跑spark dataframe和dataSet 与 add 互转" />
     <MESSAGE value="java 操作 sparksql 接口的编程" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 操作 sparksql 接口的编程" />
+    <MESSAGE value="java 和 scala 处理数据源" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 和 scala 处理数据源" />
   </component>
   <component name="WindowStateProjectService">
     <state width="258" height="258" key="Git.Branch.Popup" />
@@ -730,11 +1002,23 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/test.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceApp.scala</url>
           <line>140</line>
           <properties />
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataSet.scala</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -744,28 +1028,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="597" column="24" selection-start-line="597" selection-start-column="24" selection-end-line="597" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/package.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar!/org/apache/spark/sql/types/StructType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-713">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark.java" />
     <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/bigdata/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -773,213 +1035,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar!/org/apache/spark/sql/Row.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/SparkConf.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/SparkSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar!/org/apache/spark/sql/Encoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/api/java/function/MapFunction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wc/srcdata/text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/api/java/JavaRDD.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar!/org/apache/spark/sql/types/StructField.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar!/org/apache/spark/sql/types/DataTypes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/DataFrameReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.3/config-1.3.3.jar!/com/typesafe/config/ConfigFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4692">
-          <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2599">
-          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/DataFrameWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wc/srcdata/zips.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wc/srcdata/people.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataFrame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/InteroperatingRDDs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-f2816c60-7b39-4acc-a4f8-287ef842c392.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/hadooptrain.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-dafdde2f-a432-45b9-b630-30f83a5b18f9.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wc/srcdata/people.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-8e2f3f53-45ea-46f2-95be-b2d2658c3304.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-7bc69e2f-63d8-4f78-b7f5-7668187887c7.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wc/srcdata/users.parquet">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-3d372ca7-691a-4b16-8685-9c2c94ae5e3e.parquet">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/JDBCApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="27" selection-start-line="21" selection-start-column="5" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/InteroperatingRDDs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-0f82ebaa-da64-4bd8-a909-4fc891d42ca9.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataSet.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
+        <state relative-caret-position="2950">
           <caret line="129" column="3" selection-start-line="129" selection-start-column="3" selection-end-line="130" selection-end-column="119" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
@@ -987,50 +1052,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/DataSourceAppV2.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/SparkSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="46">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-79f6196b-a6df-433e-a4ef-dd78b3a603e6.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-07f0129c-c603-4e54-9730-9f5b25383b88.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wc/srcdata/people2.json">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/SparkContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        <state relative-caret-position="23">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/JDBCClientApp.java">
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountAppV2.scala" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="203">
+          <caret line="2025" column="18" selection-start-line="2025" selection-start-column="18" selection-end-line="2025" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataFrame.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/SparkDataSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/InteroperatingRDDs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/Dataset.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/api/java/JavaRDDLike.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+        <state relative-caret-position="336">
+          <caret line="71" column="72" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/api/java/JavaRDDLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="62" column="65" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/Tuple2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wc/srcdata/peopleOut2.txt/part-00000" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0-sources.jar!/org/apache/spark/api/java/JavaRDDLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wc/srcdata/people.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wc/srcdata/peopleOut.txt/part-00000" />
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/DataSourceAppV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/tets.java" />
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountAppV2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/scala/SparkWordCountApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/SparkDataFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="41" />
+        <state relative-caret-position="230">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1039,7 +1179,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/SparkDataSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
+        <state relative-caret-position="414">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1047,40 +1187,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/DataSourceAppV2.java">
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/sparkDataSources/JDBCApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+        <state relative-caret-position="-26">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-2644d582-414a-4474-a267-671e3b2a5678.json">
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkEonfig/JobSubmitRequest.java" />
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkDataSources/JDBCApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="1242">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadooptrain/src/test/java/com/aaa/bigdata/hadoop/spark/Person.java">
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/web/SparkJobLog.java" />
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/web/RetMsg.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/deploy/SparkSubmit.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="161">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkDataSources/JDBCClientApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/sparkDataSources/DataSourceAppV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/web/SparkJobController.java" />
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/RetMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/BootSparkApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/part-00000-e5f40f71-fa51-469e-9839-f26b415e9295.json">
+    <entry file="file://$PROJECT_DIR$/hadooptrain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="368">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/deploy/rest/RestSubmissionClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/test.java" />
+    <entry file="file://$PROJECT_DIR$/boot_spark/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/SparkJobLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/web/SparkJobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/JobSubmitRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountAppV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/SparkResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/SparkWordCountApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkConfig/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/sparkV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadooptrain/src/main/java/com/aaa/spark/shell.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_spark/src/main/java/com/aaa/boot_spark/spark/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

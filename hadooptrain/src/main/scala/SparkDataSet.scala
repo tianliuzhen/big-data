@@ -2,7 +2,7 @@ import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
 
 object SparkDataSet {
   def main(args: Array[String]): Unit = {
-    val spark=SparkSession.builder().master("local").appName("wc").getOrCreate()
+    val spark=SparkSession.builder().master("local[2]").appName("wc").getOrCreate()
     import spark.implicits._
 
     val ds: Dataset[Person] = Seq(Person("pk",30)).toDS()

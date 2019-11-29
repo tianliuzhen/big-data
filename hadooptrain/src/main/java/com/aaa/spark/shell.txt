@@ -1,0 +1,44 @@
+#模版
+
+./bin/spark-submit \
+  --class <main-class> \
+  --master <master-url> \
+  --deploy-mode <deploy-mode> \
+  --conf <key>=<value> \
+  ... # other options
+  <application-jar> \
+  [application-arguments]
+
+
+#local模式下打包运行
+
+./spark-submit \
+--class com.aaa.spark.SparkWordCountAppV2 \
+--master local \
+/opt/data/hadoop-train-1.0.jar \
+/opt/data/test.txt  /opt/data/out.txt
+
+#yarn模式
+./spark-submit \
+--class com.aaa.spark.SparkWordCountAppV2 \
+--master yarn \
+/opt/data/hadoop-train-1.0.jar \
+/opt/data/test.txt  /opt/data/out.txt
+
+#standalone模式
+./spark-submit \
+--class com.aaa.spark.SparkWordCountAppV2 \
+--master spark://tian:7077 \
+/opt/data/hadoop-train-1.0.jar \
+/opt/data/test.txt  /opt/data/out2.txt
+
+
+#测试数据库  连接外部jar
+./spark-submit \
+--class com.aaa.sparkDataSources.JDBCApi \
+--master spark://tian:7077 \
+--jars /opt/data/mysql-connector-java-5.1.47.jar \
+#如果未配置   .option("driver", "com.mysql.jdbc.Driver") 需要加以下参数
+#--driver-class-path /opt/data/mysql-connector-java-5.1.47.jar \
+/opt/data/hadoop-train-1.0.jar \
+

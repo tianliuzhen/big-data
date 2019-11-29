@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/hadooptrain/pom.xml" />
         <option value="$PROJECT_DIR$/kafka/pom.xml" />
         <option value="$PROJECT_DIR$/KafkaSimpleExample/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_spark/pom.xml" />
       </list>
     </option>
   </component>

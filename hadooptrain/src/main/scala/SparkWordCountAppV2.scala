@@ -11,7 +11,7 @@ import org.apache.spark.{SparkConf, SparkContext}
   * 5）把结果输出到文件中
   * 输出：文件
   */
-object SparkWordCountApp {
+object SparkWordCountAppV2 {
 
   /**
     * master: 运行模式，local
@@ -19,12 +19,12 @@ object SparkWordCountApp {
     * 奇怪了：老师，你本机安装spark了吗？为什么这里就能运行呢？
     */
   def main(args: Array[String]): Unit = {
-    val sparkConf = new SparkConf().setMaster("local").setAppName("SparkWordCountApp")
+    val sparkConf = new SparkConf()
     val sc = new SparkContext(sparkConf)
 
 
     // Spark特性：提供了80+高阶API
-    val rdd = sc.textFile("file:///Users/rocky/IdeaProjects/imooc-workspace/sparksql-train/data/input.txt")
+    val rdd = sc.textFile(args(0))
 
     /**
       * 结果按照单词的出现的个数的降序排列
@@ -34,7 +34,7 @@ object SparkWordCountApp {
     rdd.flatMap(_.split(",")).map(word => (word, 1))
       .reduceByKey(_+_).map(x => (x._2, x._1)).sortByKey(false)
         .map(x=> (x._2, x._1))
-      .saveAsTextFile("file:///Users/rocky/IdeaProjects/imooc-workspace/sparksql-train/out")
+      .saveAsTextFile(args(1))
       //.collect().foreach(println)
 
       //.sortByKey().collect().foreach(println)
