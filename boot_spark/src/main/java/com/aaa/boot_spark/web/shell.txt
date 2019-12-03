@@ -1,0 +1,2 @@
+spark-submit --master spark://tian:7077或者 spark-submit --master spark://tian:7077 --deploy-mode client
+spark-submit --master spark://tian:6066 --deploy-mode cluster

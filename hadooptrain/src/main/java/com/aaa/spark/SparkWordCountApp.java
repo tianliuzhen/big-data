@@ -1,5 +1,6 @@
 package com.aaa.spark;
 
+import com.aaa.common.DeleteDirectory;
 import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaPairRDD;
@@ -63,6 +64,7 @@ public class SparkWordCountApp {
                 System.out.println(o._1 + ":" + o._2);
             }
         });
+        DeleteDirectory.delZSPic("wc/srcdata/peopleOutNew.txt");
         wordCnt.saveAsTextFile("wc/srcdata/peopleOutNew.txt");
         sc.stop();
     }

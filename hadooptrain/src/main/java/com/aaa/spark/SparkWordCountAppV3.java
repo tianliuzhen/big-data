@@ -12,9 +12,11 @@ import org.apache.spark.api.java.function.PairFunction;
 import org.apache.spark.api.java.function.VoidFunction;
 import scala.Tuple2;
 
+import java.io.File;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+
 
 /**
  * description: 描述
@@ -24,24 +26,29 @@ import java.util.List;
  * @date 2019/11/28
  */
 @Slf4j
-public class SparkWordCountAppV2 {
+public class SparkWordCountAppV3 {
     public static void main(String[] args) {
         wordCount(args);
     }
 
     private static JavaSparkContext  getSC() {
-        SparkConf sparkConf = new SparkConf();
-//                .setAppName("SparkWordCountApp").setMaster("local");
+        SparkConf sparkConf = new SparkConf()
+               .setAppName("SparkWordCountApp").setMaster("local");
         JavaSparkContext sc = new JavaSparkContext (sparkConf);
         return  sc;
     }
+    //
+
+
+
     public static void wordCount(String[] args){
 
         // 制作数据集：
-        List data = Arrays.asList("Google Bye GoodBye Hadoop code", "Java code Bye");
+        List data = Arrays.asList("Google Bye GoodBye Hadoop ","code Java code Bye");
         // 将数据转化为RDD
         JavaSparkContext sc = getSC();
-        JavaRDD lines = sc.textFile(args[0]);
+        JavaRDD lines = sc.textFile("wc/srcdata/test.txt");
+//        JavaRDD lines = sc.parallelize(data);
         // flatMap 转化逻辑：一行行转化为 "Google", "Bye"...
         JavaRDD words = lines.flatMap(new FlatMapFunction<String, String>() {
             @Override
@@ -70,8 +77,11 @@ public class SparkWordCountAppV2 {
                 log.info(o._1 + ":" + o._2);
             }
         });
-        DeleteDirectory.delZSPic(args[1]);
-        wordCnt.saveAsTextFile(args[1]);
+        DeleteDirectory.delZSPic("out");
+
+//        DeleteDirectory.deleteDir(new File("out"));
+        wordCnt.coalesce(1,true).saveAsTextFile("out");
         sc.stop();
     }
+
 }

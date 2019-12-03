@@ -48,7 +48,7 @@ public class test {
         sparkProperties.setMaster("spark://"+"tian:7077");
         jobSubmitRequest.setSparkProperties(sparkProperties);
         CloseableHttpClient client = HttpClients.createDefault();
-        final String url = "http://"+"47.98.253.2:8080"+"/v1/submissions/create";
+        final String url = "http://"+"47.98.253.2:6066"+"/v1/submissions/create";
         final HttpPost post = new HttpPost(url);
         post.setHeader(HTTP.CONTENT_TYPE, "application/json;charset=UTF-8");
 
