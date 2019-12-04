@@ -2,6 +2,7 @@ package com.aaa.sparkDataSources;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SaveMode;
 import org.apache.spark.sql.SparkSession;
 
 import java.util.Properties;
@@ -56,7 +57,7 @@ public class JDBCApi {
 //                .jdbc("jdbc:mysql://localhost:3306", "test.test_new3", connectionProperties);
 
             // 指定写入时创建表列数据类型
-        jdbcDF.write().mode("overwrite")
+        jdbcDF.write().mode(SaveMode.Overwrite)
 //                .option("createTableColumnTypes", "name CHAR(64), comments VARCHAR(1024)")
                 .jdbc("jdbc:mysql://47.98.253.2:3306", "test.test_new", connectionProperties);
     }
