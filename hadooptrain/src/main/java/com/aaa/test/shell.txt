@@ -1,0 +1,7 @@
+#standalone模式
+./spark-submit \
+--class com.aaa.test.JdbcToMysql \
+--master spark://tian:7077 \
+--jars /opt/data/mysql-connector-java-5.1.47.jar \
+/opt/data/hadoop-train-1.0.jar \
+/opt/data/test.txt  /opt/data/out2.txt

@@ -55,6 +55,7 @@
       <root url="file://E:/源码包/spark-2.4.4/spark-2.4.4/streaming/src/main/java" />
       <root url="file://E:/源码包/spark-2.4.4/spark-2.4.4/streaming/src/main/scala" />
       <root url="file://E:/源码包/spark-2.4.4/spark-2.4.4/streaming/src/test/java" />
+      <root url="file://E:/源码包" />
     </SOURCES>
   </library>
 </component>

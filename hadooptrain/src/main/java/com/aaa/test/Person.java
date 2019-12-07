@@ -1,4 +1,4 @@
-package com.aaa.bigdata.hadoop.spark;
+package com.aaa.test;
 
 import java.io.Serializable;
 
@@ -28,13 +28,5 @@ public  class Person implements Serializable {
 
     public void setAge(Long age) {
         this.age = age;
-    }
-
-    public Person(String name, Long age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public Person() {
     }
 }

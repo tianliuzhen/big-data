@@ -45,6 +45,11 @@ object InteroperatingRDDs {
     val peopleDF: DataFrame = rdd.map(_.split(","))
       .map(x => Person(x(0), x(1).trim.toInt))
       .toDF()
+
+    val peopleDF2: DataFrame = rdd.map(_.split(","))
+      .map(x => (x(0),x(1)))
+      .toDF("name","Long")
+
     //    peopleDF.show(false)
     //采用sql
     peopleDF.createOrReplaceTempView("person")

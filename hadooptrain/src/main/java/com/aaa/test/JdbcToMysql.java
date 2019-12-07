@@ -2,10 +2,7 @@ package com.aaa.test;
 
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Row;
-import org.apache.spark.sql.SaveMode;
-import org.apache.spark.sql.SparkSession;
+import org.apache.spark.sql.*;
 
 import java.util.*;
 
@@ -18,29 +15,38 @@ import java.util.*;
  */
 @Slf4j
 public class JdbcToMysql {
-
     public static String url= "jdbc:mysql://rm-bp1p20iser0op442jvo.mysql.rds.aliyuncs.com:3306";
-
+    public static String url2= "jdbc:mysql://172.18.1.244:3306";
+    public static String url3= "jdbc:mysql://127.0.0.1:3306";
     public static void main(String[] args) {
         // 注意：JDBC的加载和保存可以通过load/save或JDBC方法来实现
         //从JDBC源加载数据
-        log.info("日志级别");
-        log.error("日志级别");
         System.out.println();
         SparkSession spark = SparkSession
                 .builder()
                 .appName("Java Spark SQL basic example")
-                .config("spark.some.config.option", "some-value")
+//                .config("spark.some.config.option", "some-value")
                 .master("local")
                 .getOrCreate();
 
-        Dataset<Row> jdbcDF=  getDBBy1(spark);
-
+        Dataset<Row> jdbcDF=  getDBBy2(spark);
+        log.info("加载完毕");
        jdbcDF.createOrReplaceTempView("tmp");
         Dataset<Row> sqlDF = spark.sql("SELECT * FROM  tmp  limit 10");
+
+        Person person = new Person();
+        person.setName("Andy");
+        person.setAge(32L);
+        // 为javabean创建编码器
+        Encoder<Person> personEncoder = Encoders.bean(Person.class);
+        Dataset<Person> javaBeanDS = spark.createDataset(Collections.singletonList(person), personEncoder);
+
+
+
+        javaBeanDS.select("title");
         sqlDF.show();
-
-
+        log.info("step1 结束。。。。");
+       sqlDF.write().mode("overwrite").text("out") ;
 //        jdbcDF.show(200,true);
 
     }
@@ -51,9 +57,10 @@ public class JdbcToMysql {
      */
    public static   Dataset<Row>  getDBBy1( SparkSession spark){
 
-       Properties cp = getProperties();
+       Properties cp = getProperties2();
        Dataset<Row> jdbcDF = spark.read()
-               .jdbc(url, "hxwx.wxdata_article_analysis", cp).where(" time > 1575339009 ");
+               .jdbc(url3, "test.a", cp);
+               //.where(" time > 1575339009 ");
 
        return  jdbcDF;
    }
@@ -68,7 +75,7 @@ public class JdbcToMysql {
                 /**
                  *  在连接时之间用sql进行查询
                  */
-                .jdbc(url, " (SELECT * FROM    hxwx.wxdata_article_analysis where time > 1575339009 ) tmp ", cp);
+                .jdbc(url, " (SELECT * FROM    hxwx.wxdata_article_analysis where time > 1575515140 ) tmp ", cp);
 
         return  jdbcDF;
     }
@@ -85,14 +92,14 @@ public class JdbcToMysql {
      */
 
     public static  Dataset<Row>  getDBBy3( SparkSession spark){
-        Properties cp = getProperties();
+        Properties cp = getProperties2();
         Dataset<Row> jdbcDF = spark.read()
-                .jdbc(url,
-                        "hxwx.wxdata_article_analysis",
-                        "id",
+                .jdbc(url2,
+                        "(SELECT * FROM   wml_authorize.crm_member  ) as tmp",
+                        "total_cost_num",
                         1L,
                         100000L,
-                        4,
+                        1,
                         cp);
 
         return  jdbcDF;
@@ -151,7 +158,13 @@ public class JdbcToMysql {
         cp.put("driver", "com.mysql.jdbc.Driver");
         return cp;
     }
-
+    public static Properties getProperties2() {
+        Properties cp = new Properties();
+        cp.put("user", "root");
+        cp.put("password", "haoxia");
+        cp.put("driver", "com.mysql.jdbc.Driver");
+        return cp;
+    }
     /**
      *   使用spark-sql从db中读取数据, 处理后再回写到db
      * */

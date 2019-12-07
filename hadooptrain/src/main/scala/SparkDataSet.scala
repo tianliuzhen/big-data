@@ -14,6 +14,7 @@ object SparkDataSet {
     val peopleDf: DataFrame= spark.read.json("wc/srcdata/people.json")
     val peopleDf2: Dataset[Person]  =peopleDf.as[Person]
     peopleDf2.show()
+    peopleDf.map(x => "name").show() //这里可能 会写错 ，所以dataset能编译时检查类型
     peopleDf2.map(x => x.name).show()
     spark.stop()
   }
